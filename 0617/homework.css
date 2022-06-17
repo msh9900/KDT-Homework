@@ -1,0 +1,58 @@
+.keyborad{
+    background-color: blue;
+}
+#mouse{
+    background-color: green;
+}
+h1{
+    background-color: crimson;
+    color: white;
+}
+.B>li{
+    background-color: blueviolet;
+}
+.A li{
+    color: white;
+}
+.tiger+ p{
+    color: yellow;
+}
+.t ~th{
+    background-color: coral;
+}
+.hyena:hover{
+    font-size: 100px;
+}
+.cheetah:active{
+    background-color: blueviolet;
+    font-size: 50px;
+}
+.bear:focus{
+    background-color: orange;
+}
+.child li:first-child{
+    font-weight: bold;
+}
+.child li:last-child{
+    color: darkseagreen;
+}
+.B li:nth-child(2n){
+    color: red;
+    font-size: 20px;
+}
+.child *:not(.NT){
+    background-color: blue;
+}
+.bear::before{
+    content: "엄청강한";
+}
+.bear::after{
+    content: "인형";
+}
+[disabled]
+{
+   color: red;
+}
+[type="password"]{
+    color: green;
+}
