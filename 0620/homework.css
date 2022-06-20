@@ -1,0 +1,47 @@
+div{
+    display: inline-block;
+    width: 10vw;
+    height: 10vh;
+    padding: 15px;
+}
+.odday{
+    background-color:gray ;
+    text-align: center;
+}
+.evday{
+    background-color: orange;
+    text-align: center;
+}
+.white{
+    background-color: white;
+}
+.Mon>.skyblue{
+    background-color: skyblue;
+}
+.Wed>.skyblue{
+    background-color: skyblue;
+}
+.Fri>.skyblue{
+    background-color: skyblue;
+}
+.Tue>.cornflowerblue{
+    background-color: cornflowerblue;
+}
+.Thu>.cornflowerblue{
+    background-color: cornflowerblue;
+}
+.Sat>.cornflowerblue{
+    background-color: cornflowerblue;
+}
+.Sun>.lightcoral{
+    background-color: lightcoral;
+}
+.Sun>.burlywood{
+    background-color: burlywood;
+}
+.posco{
+    background-color: rgb(18, 60, 198);
+}
+.posco::after{
+    content: "포스코";
+}
