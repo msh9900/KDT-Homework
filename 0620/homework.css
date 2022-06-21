@@ -7,10 +7,12 @@ div{
 .odday{
     background-color:gray ;
     text-align: center;
+    line-height: 50px;
 }
 .evday{
     background-color: orange;
     text-align: center;
+    line-height: 50px;
 }
 .white{
     background-color: white;
