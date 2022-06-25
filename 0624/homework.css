@@ -1,0 +1,177 @@
+body {
+    background-image: url("http://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/environmentart-sru-04_1920_1.jpg?itok=4T0oDnTb");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.container {}
+
+.container .champions {
+    display: flex;
+    max-width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+.container .champions .champion {
+    width: 80px;
+    height: 84px;
+    margin: 10px 15px;
+    border: 3px solid rgb(83, 83, 150);
+    background-color: royalblue;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container .champions .champion:hover .image {
+    background-color: orange;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.container .champions .champion:hover {
+    border: 4px dashed black;
+    z-index: 1;
+}
+.container .champions .champion:active .image {
+    background-color: green;
+    filter: grayscale(100%);
+    border-radius: 50px;
+    /* border-color: orange; */
+}
+.container .champions .champion:active{
+    background-color: green;
+    filter: grayscale(100%);
+    /* border-color: orange; */
+}
+
+.container .champions .champion .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.container .champions .champion:nth-child(1) .image {
+    background-image: url("./champions/01.png");
+}
+
+.container .champions .champion:nth-child(2) .image {
+    background-image: url("./champions/02.png");
+}
+
+.container .champions .champion:nth-child(3) .image {
+    background-image: url("./champions/03.png");
+}
+
+.container .champions .champion:nth-child(4) .image {
+    background-image: url("./champions/04.png");
+}
+
+.container .champions .champion:nth-child(5) .image {
+    background-image: url("./champions/05.png");
+}
+
+.container .champions .champion:nth-child(6) .image {
+    background-image: url("./champions/06.png");
+}
+
+.container .champions .champion:nth-child(7) .image {
+    background-image: url("./champions/07.png");
+}
+
+.container .champions .champion:nth-child(8) .image {
+    background-image: url("./champions/08.png");
+}
+
+.container .champions .champion:nth-child(9) .image {
+    background-image: url("./champions/09.png");
+}
+
+.container .champions .champion:nth-child(10) .image {
+    background-image: url("./champions/10.png");
+}
+
+.container .champions .champion:nth-child(11) .image {
+    background-image: url("./champions/11.png");
+}
+
+.container .champions .champion:nth-child(12) .image {
+    background-image: url("./champions/12.png");
+}
+
+.container .champions .champion:nth-child(13) .image {
+    background-image: url("./champions/13.png");
+}
+
+.container .champions .champion:nth-child(14) .image {
+    background-image: url("./champions/14.png");
+}
+
+.container .champions .champion:nth-child(15) .image {
+    background-image: url("./champions/15.png");
+}
+
+.container .champions .champion:nth-child(16) .image {
+    background-image: url("./champions/16.png");
+}
+
+.container .champions .champion:nth-child(17) .image {
+    background-image: url("./champions/17.png");
+}
+
+.container .champions .champion:nth-child(18) .image {
+    background-image: url("./champions/18.png");
+}
+
+.container .champions .champion:nth-child(19) .image {
+    background-image: url("./champions/19.png");
+}
+
+.container .champions .champion:nth-child(20) .image {
+    background-image: url("./champions/20.png");
+}
+
+.container .champions .champion:nth-child(21) .image {
+    background-image: url("./champions/21.png");
+}
+
+.container .champions .champion:nth-child(22) .image {
+    background-image: url("./champions/22.png");
+}
+
+.container .champions .champion:nth-child(23) .image {
+    background-image: url("./champions/23.png");
+}
+
+.container .champions .champion:nth-child(24) .image {
+    background-image: url("./champions/24.png");
+}
+
+.container .champions .champion:nth-child(25) .image {
+    background-image: url("./champions/25.png");
+}
+
+.container .champions .champion:nth-child(26) .image {
+    background-image: url("./champions/26.png");
+}
+
+.container .champions .champion:nth-child(27) .image {
+    background-image: url("./champions/27.png");
+}
+
+.container .champions .champion:nth-child(28) .image {
+    background-image: url("./champions/28.png");
+}
+
+.container .champions .champion:nth-child(29) .image {
+    background-image: url("./champions/29.png");
+}
+
+.container .champions .champion:nth-child(30) .image {
+    background-image: url("./champions/30.png");
+}
+
+
