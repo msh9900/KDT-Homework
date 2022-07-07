@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9fca17e4f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="homework.css">
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="topBanner">
+                <a href="#" class="topBanner__text__font">기업교육 1등 앨리스의 개인교육이 궁금하다면?></a>
+                <i class="fa-solid fa-x topBanner__btn"></i>
+            </div>
+
+            <div class="bottomBanner">
+                <div class="bottommBanner__inner">
+                    <a class="logo" href="#"><img
+                            src="data:image/png;base64,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"
+                            alt=""></a>
+
+                    <div class="list1">
+
+                        <div class="list1__name">
+                            <a href="#">
+                                <div class="text">서비스</div>
+                                <i class="fa-solid fa-angle-down btn"></i>
+                            </a>
+                            <div class="list__name__contents">
+                                <div class="list__name__contents__menu">
+                                    <ul class="menu-inner">
+                                        <li>
+                                            <a href="#">교육</a>
+                                            <ul>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_1.png" alt=""></div>
+                                                    <div>
+                                                        <div>교육 컨텐츠<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>실무에 바로 적용할수 잇는 실습 중심 SW교육을 경험해보세요</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_2.png" alt=""></div>
+                                                    <div>
+                                                        <div>데이터 분석<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>기초 프로그래밍부터 실제 데이터를 활용한 프로젝트 교육까지</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_2.png" alt=""></div>
+                                                    <div>
+                                                        <div>AI<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>KAIST 교육진과 공동설계한 최고의 AI 교육</div>
+                                                    </div>
+                                                </li>                                                
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_4.png" alt=""></div>
+                                                    <div>
+                                                        <div>웹<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>내가 필요한 서비스를 손쉽게 기획하고 제작하는 웹 교육</div>
+                                                    </div>
+                                                </li>                                                
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_5.png" alt=""></div>
+                                                    <div>
+                                                        <div>PBL<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>사내 데이터를 통해 현업의 문제를 해결하는 맞춤형 프로젝트 교육</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">LXP</a>
+                                            <ul>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_1.png" alt=""></div>
+                                                    <div>
+                                                        <div>학습자 경험 플랫폼(LXP)<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>학습자의 교육 경험을 극대화할 올인원 플랫폼을 경험해보세요</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_2.png" alt=""></div>
+                                                    <div>
+                                                        <div>실습환경<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>복잡한 설치 없이 로그인 한 번으로 손쉽게 코딩하는 실습환경</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_3.png" alt=""></div>
+                                                    <div>
+                                                        <div>헬프센터<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>현직 전문가들과의 질의응답을 제공하는 엘리스만의 독보적인 솔루션</div>
+                                                    </div>
+                                                </li>                                                
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_4.png" alt=""></div>
+                                                    <div>
+                                                        <div>학습관리<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>수강생들의 학습데이터 기반 AI 학습관리 솔루션</div>
+                                                    </div>
+                                                </li>                                                
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_5.png" alt=""></div>
+                                                    <div>
+                                                        <div>AI 대시보드<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>수강생들의 학습 데이터에 기반한 AI 학습 관리 솔루션과 학습 독려</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_6.png" alt=""></div>
+                                                    <div>
+                                                        <div>화상강의실<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>비대면/대규모 코딩 교육을 위한 올인원 화상솔루션</div>
+                                                    </div>
+                                                </li>                                               <li>
+                                                    <div class="menu__image"><img src="./imgs/item2_7.png" alt=""></div>
+                                                    <div>
+                                                        <div>라이브러리<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>300+개의 다양한 교육자료 지원</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <li>
+                                                <a href="#">코딩테스트</a>
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu__image"><img src="./imgs/item1_1.png" alt=""></div>
+                                                        <div>
+                                                            <div>온라인 코딩테스트<i class="fa-solid fa-arrow-right"></i></div>
+                                                            <div>임직원 DX 역량을 공정하고 체계적으로 평가해보세요</div>
+                                                        </div>
+                                                    </li>                                                   
+                                                </ul>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="list1__name">
+                            <a href="#">
+                                <div class="text">엘리스</div>
+                                <i class="fa-solid fa-angle-down btn"></i>
+                            </a>
+                            <div class="list__name__contents">
+                                <div class="list__name__contents__menu">
+                                    <ul class="menu-inner">
+                                        <li>
+                                            <a href="#">엘리스</a>
+                                            <ul>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_1.png" alt=""></div>
+                                                    <div>
+                                                        <div>회사소개<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>엘리스 소개</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_2.png" alt=""></div>
+                                                    <div>
+                                                        <div>브랜드<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>기회와 가능성을 만들어내는 기술</div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_2.png" alt=""></div>
+                                                    <div>
+                                                        <div>개인교육<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>엘리스의 다양한 교육</div>
+                                                    </div>
+                                                </li>                                                
+                                                <li>
+                                                    <div class="menu__image"><img src="./imgs/item1_4.png" alt=""></div>
+                                                    <div>
+                                                        <div>엘리스 채용<i class="fa-solid fa-arrow-right"></i></div>
+                                                        <div>디지털 트랜스포메이션을 이끄는 사람들, 엘리스</div>
+                                                    </div>
+                                                </li>                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list1__name"><a href="#">고객 사례</a></div>
+                        <div class="list1__name"><a href="#">뉴스룸</a></div>
+                    </div>
+
+                    <div class="customer">
+                        <a href="#">
+                            <div class="customer__login">로그인</div>
+                        </a>
+                        <a href="#">
+                            <div class="customer__qt">도입 문의</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
