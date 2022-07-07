@@ -1,13 +1,16 @@
 /* COMMON */
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 
-* {
-    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-    font-size: 14px
+/* COMMON */
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+  font-size: 16px;
+  background: linear-gradient(90deg, #ded5fe, #f6f4fe);
+  height: 5000px;
 }
-body{
-    height: 5000px;
-}
+
 a {
     text-decoration: none;
     color: black;
@@ -110,17 +113,17 @@ a {
 }
 .list1__name:hover .list__name__contents {
     display: block;
+    background-color: white;
 }
 .list__name__contents{
     position: absolute;
     display: none;
-    left: -57%;
+    left: -62%;
     width: 1350px;
     height: 800px;
-    padding: 0 80px;
+    padding: 0 20%;
 }
 .list__name__contents .list__name__contents__menu{
-
 }
 .list__name__contents .list__name__contents__menu .menu-inner{
     display: flex;
