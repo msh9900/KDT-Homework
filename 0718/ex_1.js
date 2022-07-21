@@ -25,11 +25,10 @@ dataValue.addEventListener("click",function(e){
     if(e.target.tagName === "P"){
     date.value = e.target.textContent;
     td = e.target.parentNode;
-    content.value =td.childNodes[1].textContent;
     }
     
     if(e.target.tagName ==="DIV"){
-        td.childNodes[1].remove();
+        e.target.remove();
     }
     
     
