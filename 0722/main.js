@@ -29,5 +29,22 @@
 //     }
 //     return answer;
 // }
+let a =123;
+let b =987
+// function solution(n)
+// {   
+//     let answer = n;
+//     let item =[];
+//     answer= String(answer);
+//     for(let i =0; i<answer.length;i++){
+//         let val = Number(answer[i]);
+//         item.push(val);
+//         console.log(item);
+//     }
+//     result = item.reduce(function(sum, value){
+//         return sum + value;
+//     })
 
-
+//     return result;
+// }
+// console.log(solution(a));
