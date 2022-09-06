@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/test.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>회원 목록</h1>
+  <h2>
+    총 회원 수 <%= userCounts %>
+  </h2>
+  <ul>
+    <% if(userCounts> 0) { %>
+    <% for(let i=0; i < userCounts; i++) { %>
+    <li>
+      <p>ID: <%= USER[i].title %>
+      </p>
+      <p>이름: <%= USER[i].content %>
+      </p>
+    </li>
+    <% } %>
+    <% } else { %>
+    <li>
+      회원 정보가 없습니다!
+    </li>
+    <% } %>
+  </ul>
+</body>
+
+</html>
