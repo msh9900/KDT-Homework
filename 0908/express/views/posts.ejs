@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <%-include('header.ejs') %>
+  </header>
+  <form action="/posts" method="POST">
+    <div>
+      <label>타이틀</label>
+      <input type="text" name="title" />
+    </div>
+    <div>
+      <label>내용</label>
+      <input type="text" name="content" />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <h1>회원 목록</h1>
+  <h2>
+    총 회원 수 <%= contentCounts %>
+  </h2>
+  <ul>
+    <% if(contentCounts> 0) { %>
+    <% for(let i=0; i < contentCounts; i++) { %>
+    <li>
+      <p>타이틀: <%= POST[i].title %>
+      </p>
+      <p>내용: <%= POST[i].content %>
+      </p>
+      <a href="" onclick="deletePost('<%= POST[i].title %>');">삭제</a>
+    </li>
+    <% } %>
+    <% } else { %>
+    <li>
+      회원 정보가 없습니다!
+    </li>
+    <% } %>
+  </ul>
+</body>
+<script>
+  function deletePost(title) {
+    fetch(`http://localhost:4000/posts/${title}`, {
+      method: 'delete',
+      headers: {
+        'Content-type': 'application/json'
+      },
+    }).then((res) => {
+      console.log(res);
+      location.reload();
+    })
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</html>
